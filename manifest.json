@@ -1,9 +1,0 @@
-{
-  "domain": "ispmanager",
-  "name": "Ispmanager",
-  "documentation": "https://github.com/IronButterfly/ispmanager_HA",
-  "requirements": [],
-  "dependencies": [],
-  "version": "1.0.1",
-  "codeowners": "@IronButterfly"
-}
