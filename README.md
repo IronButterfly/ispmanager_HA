@@ -1,4 +1,4 @@
-# ispmanager_HA
+# Ispmanager integration to Homeassistat
 Simple custom integration for ispmanager in Homeassistant.
 
 Based on the API request to the ispmanager server, two sensors are created - CPU usage and RAM usage.
