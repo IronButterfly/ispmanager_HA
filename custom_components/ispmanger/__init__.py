@@ -1,0 +1,2 @@
+"""Ispmanager Integration."""
+DOMAIN = "ispmanager"
