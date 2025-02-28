@@ -1,10 +1,10 @@
 # Ispmanager integration to Homeassistat
-Simple custom integration for [ispmanager](https://ispmanager.com) in Homeassistant.
 
-Based on the API request to the ispmanager server, two sensors are created - CPU usage and RAM usage. Additionally sensors of your actual ispmanager's services with their statuses will be added.
+Simple custom integration for [ispmanager](https://ispmanager.com) in Home Assistant.
 
-For the integration to work, it is necessary to manually upload it to custom_components/ispmanager and restart Homeassistant. 
+This integration retrieves data from the ispmanager server using API requests to create two sensors: CPU load and RAM usage. Additionally, it adds sensors to monitor the status of your services in ispmanager and their current states.
 
-Then you cna add and configure Ispmanager integration in Homeassistan's Integration menu. 
+To use this integration, manually upload it to the custom_components/ispmanager directory and restart Home Assistant.
 
-On stage of configuration you will. be asked about hostname or IP address of your ispmanager server, username (usually root), password and scan interval in seconds.
+After restarting, you can configure the ispmanager integration from the **Integrations** menu in Home Assistant.
+During the setup, you will need to specify the hostname or IP address of your ispmanager server, the username (usually "root"), the password, and the scan interval in seconds.
